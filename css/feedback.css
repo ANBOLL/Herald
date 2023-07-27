@@ -1,0 +1,152 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular/SegoeUIRegular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"),
+    url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+html {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: rgb(183, 183, 182);
+  width: 100%;
+  height: 100%;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  max-width: 1920px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Segoe UI;", sans-serif;
+}
+.form_feedback,
+.name_feedback,
+.email_feedback,
+.quest_feedback,
+.button_feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.hr_feedback_main {
+  height: 1px;
+  width: 100%;
+  margin: 0px;
+  background: #6c6e7b;
+}
+.main_feedback {
+  display: flex;
+  margin-bottom: 83px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-bottom: 120px;
+  background-color: #fff;
+}
+.form_feedback {
+  width: 500px;
+  height: 300px;
+}
+.name_feedback,
+.email_feedback,
+.quest_feedback,
+.button_feedback,
+textarea {
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  border: 2px solid #9b407a;
+  color: var(--brand-color, #841844);
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.button_feedback {
+  margin-top: 30px;
+  border: 2px solid #000000;
+  color: var(--brand-color, #dadada);
+  background-color: #4b4b4b;
+}
+.button_feedback:hover {
+  border: 2px solid #9b407a;
+  background: var(--brand-color, #000000);
+  color: var(--white, #fff);
+}
+.hero_feedback {
+  margin: 20px auto 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--brand-color, #841844);
+}
+.hero_feedback_h1 {
+  margin: 0px;
+  margin-top: 60px;
+}
+.main_ok {
+  margin: 50px auto 50px auto;
+}
+.ok_feedback {
+  width: 500px;
+  height: auto;
+}
+.div_image {
+  width: 500px;
+  height: 300px;
+  background: url(../img/linux.svg);
+  background-size: 300px 300px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-bottom: 30px;
+}
+.h1_ok {
+  color: var(--brand-color, #841844);
+}
+.buttons_ok {
+  display: flex;
+  justify-content: space-between;
+}
+.button_ok {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50px;
+  border-radius: 50px;
+  border: 2px solid var(--brand-color, #841844);
+  color: var(--brand-color, #841844);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.button_ok:hover {
+  border: 2px solid var(--brand-color, #841844);
+  background: var(--brand-color, #841844);
+  color: var(--white, #fff);
+}
